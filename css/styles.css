@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+tbody,
+thead,
+tfoot td {
+  background-color: #eaeaea;
+}
+
+thead {
+  font-size: 8px;
+}
+
+thead th,
+tbody td {
+  border: solid 1px;
+  border-left: solid 1px #f0f0f0;
+  border-top: solid 1px #f0f0f0;
+  border-right: solid 1px #cccccc;
+  border-bottom: solid 1px #cccccc;
+}
+
+tbody td {
+  font-size: 12px;
+  text-align: center;
+  font-weight: 600;
+  color: #5b5b5b;
+}
+
+tbody td:hover {
+  background: #fe0100;
+  color: #5b5b5b;
+}
+
+tbody a {
+  color: #4ca8ba;
+}
+
+tbody td,
+tfoot td {
+  padding: 6px;
+}
+
+tfoot a {
+  font-size: 10px;
+  color: #636766;
+}
+
+caption {
+  background-color: #7ca28c;
+  font-size: 14px;
+  padding: 4px;
+}
+
+form {
+  background: #d9c085;
+  margin-top: 24px;
+  width: 100%;
+  max-width: 500px;
+  padding: 8px;
+}
+
+#next {
+  text-align: right;
+}
+
+#today {
+  background: #4ca8ba;
+  color: white;
+}
+
+/* Lab 5 - 2 */
+.hoverNode {
+  margin-left: 4px;
+  cursor: pointer;
+  background-color: #d9c085;
+  border: solid 1px black;
+  color: black;
+}
